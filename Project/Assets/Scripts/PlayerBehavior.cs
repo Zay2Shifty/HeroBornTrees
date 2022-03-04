@@ -32,6 +32,9 @@ public class PlayerBehavior : MonoBehaviour
     private bool doJump = false;
     private bool doShoot = false;
 
+    //public delegate void JumpingEvent();
+    //public event JumpingEvent playerJump;
+
     private void Start()
     {
         _rb = GetComponent<Rigidbody>();
